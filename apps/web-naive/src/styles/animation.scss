@@ -1,0 +1,169 @@
+@keyframes slide-in {
+  0% {
+    filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+    filter: alpha(opacity=0);
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    filter: none;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes rowup {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes donate_effcet {
+  0% {
+    filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+    filter: alpha(opacity=0);
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  100% {
+    filter: none;
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes owoIn {
+  from {
+    opacity: 0;
+    transform: translateY(0) scale(0.8);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(-10px) scale(1);
+  }
+}
+
+@keyframes commonTipsIn {
+  0% {
+    top: -40px;
+    filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=0)';
+    filter: alpha(opacity=0);
+    opacity: 0;
+  }
+
+  100% {
+    top: -50px;
+    filter: none;
+    opacity: 1;
+  }
+}
+
+@keyframes commonTriangleIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rowleft {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes light_tag {
+  0% {
+    left: -150px;
+    transform: skewX(0deg);
+  }
+
+  99% {
+    left: 50px;
+    transform: skewX(-25deg);
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, -4px);
+  }
+
+  50% {
+    transform: translate(0, 4px);
+  }
+
+  100% {
+    transform: translate(0, -4px);
+  }
+}
+
+@keyframes to_show {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    filter: none;
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slideInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes playlistSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

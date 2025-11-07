@@ -10,5 +10,10 @@
     "title": "Dashboard",
     "analytics": "Analytics",
     "workspace": "Workspace"
+  },
+  "album": {
+    "title": "Album",
+    "home": "Album Home",
+    "management": "Album Management"
   }
 }

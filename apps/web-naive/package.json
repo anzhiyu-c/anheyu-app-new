@@ -41,6 +41,8 @@
     "@vben/types": "workspace:*",
     "@vben/utils": "workspace:*",
     "@vueuse/core": "catalog:",
+    "dayjs": "catalog:",
+    "gsap": "^3.13.0",
     "naive-ui": "catalog:",
     "pinia": "catalog:",
     "vue": "catalog:",

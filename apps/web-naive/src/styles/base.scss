@@ -1,0 +1,238 @@
+a {
+  overflow-wrap: break-word;
+  transition: all 0.2s ease 0s;
+  -webkit-user-drag: none;
+}
+
+hr {
+  position: relative;
+  display: flex;
+  margin: 1rem 0;
+  border: 1px dashed var(--anzhiyu-theme-op);
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+img {
+  max-width: 100%;
+  border-style: none;
+  border-radius: 8px;
+  transition: all 0.2s ease 0s;
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+}
+
+p {
+  display: block;
+  margin-inline: 0;
+  unicode-bidi: isolate;
+}
+
+h1 {
+  margin: 0.67em 0;
+  font-size: 2rem;
+}
+
+h2 {
+  display: block;
+  margin-block: 0.83em;
+  margin-inline: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  unicode-bidi: isolate;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+h5 {
+  font-size: 0.875em;
+}
+
+h6 {
+  font-size: 0.85em;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1rem;
+}
+
+[type='button'],
+[type='reset'],
+[type='submit'],
+button {
+  appearance: button;
+  appearance: button;
+}
+
+input[type='checkbox']:not(.el-checkbox__original) {
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  margin-right: 8px;
+  appearance: none;
+  appearance: none;
+  appearance: none;
+  appearance: none;
+  appearance: none;
+  pointer-events: none;
+  cursor: pointer;
+  border: 2px solid var(--anzhiyu-theme);
+  border-radius: 2px;
+  outline: 0;
+  transition: all 0.15s ease-out 0s;
+  transform: translateY(2px);
+
+  &:checked {
+    background: var(--anzhiyu-theme);
+  }
+
+  &::before,
+  &::after {
+    position: absolute;
+    content: '';
+    background: #fff;
+  }
+
+  &:checked::before {
+    top: 7px;
+    left: 0;
+    width: 6px;
+    height: 2px;
+  }
+
+  &:checked::after {
+    right: 3px;
+    bottom: 1px;
+    width: 2px;
+    height: 10px;
+  }
+
+  &::before {
+    top: 5px;
+    left: 1px;
+    width: 0;
+    height: 2px;
+    transition: all 0.2s ease-in;
+    transform: rotate(45deg);
+  }
+
+  &::after {
+    right: 7px;
+    bottom: 3px;
+    width: 2px;
+    height: 0;
+    transition-delay: 0.25s;
+    transform: rotate(40deg);
+  }
+}
+
+psw {
+  color: transparent;
+  background: #a1a1a1;
+  border-radius: 2px;
+  -webkit-transition: all 0.28s ease;
+  -moz-transition: all 0.28s ease;
+  -o-transition: all 0.28s ease;
+  -ms-transition: all 0.28s ease;
+  transition: all 0.28s ease;
+  -moz-transition: all 0.28s ease;
+  -webkit-transition: all 0.28s ease;
+  -o-transition: all 0.28s ease;
+}
+
+psw:hover {
+  color: var(--anzhiyu-font);
+  background: 0 0;
+}
+
+kbd {
+  display: inline-block;
+  color: #666;
+  font: bold 9pt arial;
+  text-decoration: none;
+  text-align: center;
+  padding: 2px 5px;
+  margin: 0 5px;
+  background: #eff0f2;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border-top: 1px solid #f5f5f5;
+  -webkit-box-shadow:
+    inset 0 0 20px #e8e8e8,
+    0 1px 0 #c3c3c3,
+    0 1px 0 #c9c9c9,
+    0 1px 2px #333;
+  -moz-box-shadow:
+    inset 0 0 20px #e8e8e8,
+    0 1px 0 #c3c3c3,
+    0 1px 0 #c9c9c9,
+    0 1px 2px #333;
+  -webkit-box-shadow:
+    inset 0 0 20px #e8e8e8,
+    0 1px 0 #c3c3c3,
+    0 1px 0 #c9c9c9,
+    0 1px 2px #333;
+  -webkit-box-shadow:
+    inset 0 0 20px #e8e8e8,
+    0 1px 0 #c3c3c3,
+    0 1px 0 #c9c9c9,
+    0 1px 2px #333;
+  box-shadow:
+    inset 0 0 20px #e8e8e8,
+    0 1px 0 #c3c3c3,
+    0 1px 0 #c9c9c9,
+    0 1px 2px #333;
+  text-shadow: 0 1px 0 #f5f5f5;
+}
+
+b,
+strong {
+  color: var(--anzhiyu-lighttext);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 6px;
+}
+
+@media (width <= 768px) {
+  ::-webkit-scrollbar {
+    width: auto;
+    height: 6px;
+  }
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--anzhiyu-card-border);
+  opacity: 0.5;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid var(--anzhiyu-background);
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--anzhiyu-background);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--anzhiyu-lighttext);
+  display: block !important;
+}

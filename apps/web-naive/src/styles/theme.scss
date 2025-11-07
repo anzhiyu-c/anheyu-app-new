@@ -1,0 +1,23 @@
+/* 亮白色 */
+html[data-theme='light'] {
+  --anzhiyu-theme-sub-menu-active-text: #000000d9;
+  --anzhiyu-theme-menu-bg: #fff;
+  --anzhiyu-theme-menu-hover: #f6f6f6;
+  --anzhiyu-theme-sub-menu-bg: #fff;
+  --anzhiyu-theme-menu-text: rgb(0 0 0 / 60%);
+  --anzhiyu-theme-sidebar-logo: #fff;
+  --anzhiyu-theme-menu-title-hover: #000;
+  --anzhiyu-theme-menu-active-before: #4091f7;
+}
+
+/* 暗色模式 */
+html[data-theme='default'] {
+  --anzhiyu-theme-sub-menu-active-text: #fff;
+  --anzhiyu-theme-menu-bg: #001529;
+  --anzhiyu-theme-menu-hover: rgb(64 145 247 / 15%);
+  --anzhiyu-theme-sub-menu-bg: #0f0303;
+  --anzhiyu-theme-menu-text: rgb(254 254 254 / 65%);
+  --anzhiyu-theme-sidebar-logo: #002140;
+  --anzhiyu-theme-menu-title-hover: #fff;
+  --anzhiyu-theme-menu-active-before: #4091f7;
+}

@@ -11,6 +11,9 @@ import { useTitle } from '@vueuse/core';
 
 import { $t, setupI18n } from '#/locales';
 
+// 导入公共样式
+import './styles/index.scss';
+
 import { initComponentAdapter } from './adapter/component';
 import { initSetupVbenForm } from './adapter/form';
 import App from './app.vue';

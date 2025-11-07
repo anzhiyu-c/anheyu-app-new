@@ -10,5 +10,10 @@
     "title": "概览",
     "analytics": "分析页",
     "workspace": "工作台"
+  },
+  "album": {
+    "title": "相册",
+    "home": "相册首页",
+    "management": "相册管理"
   }
 }

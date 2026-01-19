@@ -42,7 +42,7 @@
     "@vben/utils": "workspace:*",
     "@vueuse/core": "catalog:",
     "dayjs": "catalog:",
-    "gsap": "^3.13.0",
+    "gsap": "^3.14.2",
     "naive-ui": "catalog:",
     "pinia": "catalog:",
     "vue": "catalog:",
